@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5 {
 .top-of-article{
 	display:inline-block;
 	width: 100%;
-	margin: 10% 0 4% 0;
+	margin: 17% 0 4% 0;
 	
 
 }
@@ -82,9 +82,11 @@ nav {
 	color:slategray;
 	text-decoration: none;
 	display: inline-block;
-	padding: 0 3%;
-	
-	
+	padding: 4%;
+
+}
+#services-link{
+	padding: 0;
 }
 div.links{
 	width: 60%;
@@ -109,6 +111,7 @@ margin-top: 2%
 	text-align: center;
 	margin-left: 10%;
 	display: inline-block;
+	padding-bottom: 5%;
 
 }
 #get-started{
@@ -133,8 +136,8 @@ hr {
 	height: .5px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: 3%;
+	margin-bottom: 3%;
 	background-color: black;
 }
 .features-and-about{
