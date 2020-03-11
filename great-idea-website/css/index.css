@@ -54,7 +54,8 @@ h1, h2, h3, h4, h5 {
 .top-of-article{
 	display:inline-block;
 	width: 100%;
-	margin-bottom: 4%;
+	margin: 10% 0 4% 0;
+	
 
 }
 nav {
@@ -62,6 +63,11 @@ nav {
 	display: inline-block;
 	/* background-color: lightblue; */
 	margin-bottom: 4%;
+	position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  background-color: rgba(0, 255, 0, 0.3);
+ 
+  padding-bottom: 1.5%;
 }
  #logo-container{
 	display: inline-block; 
@@ -82,6 +88,7 @@ nav {
 }
 div.links{
 	width: 60%;
+	
 }
 .logo{
 display: inline-block;
@@ -111,8 +118,12 @@ margin-top: 2%
 	text-decoration: none;
 	color:slategray;
 	padding: 0 15%;
+	
 
 }
+#get-started:hover{
+	background-color: rgba(0, 255, 0, 0.3);
+   }
 .code-snippet-pic{
 	display: inline-block;
 	margin-left: 20%;
@@ -179,4 +190,8 @@ address{
 }
 .phone-number{
 	margin: 3% 0;
+}
+
+.body p{
+	font-family: 'Sen', sans-serif;
 }
